@@ -18,15 +18,13 @@ body{
     margin: 30px;
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
+    color: rgb(17, 64, 64);
     
 }
 #timer{
     position: absolute;
    top:0;
    right:0;
-    width: 50px;
-    height: 30px;
     margin: 30px;
     font-size: 25px;
     padding: 10px;
@@ -38,16 +36,112 @@ body{
 
 }
 #question {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: rgb(17, 64, 64);
+}
+ #options {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(17, 64, 64);
+}
+#message {
+    padding-top: 30px;
     text-align: center;
     font-size: 20px;
     width: 100%;
     margin-bottom: 20px;
+    color: rgb(65, 21, 21);
+
 }
- #options {
-    font-size: 15px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+#welcomeNote{
+    color: rgb(42, 63, 56);
+    margin-top: 40px;
 }
+#startQuiz{
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'monospace';
+    background-color: rgb(152, 210, 210);
+    border: 2px outset lightgray;
+    border-radius: 10px;
+    cursor: default;
+    margin-top: 160px;
+}
+#summary{
+    text-align: center;
+    font-family: 'monospace';
+    color: rgb(42, 63, 56);
+    font-size: 30px;
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    margin-left: 100px;
+    
+}
+#viewScore{
+    margin-left: 145px;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    font-family: 'monospace';
+    background-color: rgb(152, 210, 210);
+    border: 2px outset lightgray;
+    border-radius: 10px;
+    cursor: default;
+}
+#saveScore{
+    
+    margin-top: 20px;
+    margin-left: 145px;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    font-family: 'monospace';
+    background-color: rgb(152, 210, 210);
+    border: 2px outset lightgray;
+    border-radius: 10px;
+    cursor: default;
+}
+#playAgain{
+    float: right;
+    margin-top: 80px;
+    margin-left: 250px;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    font-family: 'monospace';
+    background-color: rgb(152, 210, 210);
+    border: 2px outset lightgray;
+    border-radius: 10px;
+    cursor: default;
+}
+#initial{
+width: 200px;
+  padding: 12px 20px;
+  
+  margin-top: 10px;
+  margin-left: 145px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#results{
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+

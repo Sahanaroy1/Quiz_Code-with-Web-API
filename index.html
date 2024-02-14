@@ -9,15 +9,15 @@
 <body>
     <header>
         <div id="highScore">
-            <a href="">High Scores</a>
+            High Score
         </div>
         <div id="timer"></div>
     </header>
     <main>
         <div id="welcome">
-            <h1>Welcome to Code Quiz</h1>
+            <h1 id="welcomeNote">Welcome to Code Quiz</h1>
             <button id="startQuiz" class="button">StartQuiz</button>
-            <div id="quiz" class="hidden">
+            <div id="quiz" >
                 <div id="question">
                 </div>
                 <div id="options">
@@ -25,17 +25,15 @@
                 <div id="message">   
                 </div>
             </div>
-            <div id="results" class="hidden">
+            <div id="results" >
                 <div id="summary"></div>
                 <button id="viewScore" class="button">View all High Score</button>
-                <input type="text" id="initial" placeholder="Enter your Name">
+                <input type="text" id="initial" placeholder="Enter your initial">
                 <button id="saveScore" class="button">Save Score</button>
                 <button id="playAgain" class="button hide">Play Again</button>
                 
             </div>
-        </div>
-       
-        
+        </div>   
     </main>
     <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/script.js"></script>

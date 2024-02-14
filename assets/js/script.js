@@ -22,8 +22,18 @@ function stopGame(){
     quizEl.style.display = 'none';
    
     resultEl.style.display = 'flex';
-    summaryEl.textContent = "Your Score is " + score;
+
+   
+    var initial = prompt("Enter your name or initials:");
+    
+  
+    localStorage.setItem("initial", initial);
+    localStorage.setItem("score", score);
+
+    summaryEl.textContent = "Hey!" + initial + " you scored " + score + ".";
 }
+
+
 
 function onSelectAnswer(e){
     var correctAnswer = questions[currentQuestion].answer;
@@ -41,10 +51,8 @@ function onSelectAnswer(e){
     currentQuestion++;
     console.log(currentQuestion);
     if(currentQuestion >= questions.length){
-        console.log("In stop");
         stopGame();
     }else{
-        console.log("out");
         displayQuestion();
     }
     
@@ -93,6 +101,7 @@ function displayAnswer(){
 
 function onStartGame(){
     resultEl.style.display = "none";
+    document.getElementById("welcomeNote").style.display = "none";
     displayQuestion();
     secondsLeft = 75;
 
@@ -115,4 +124,5 @@ function onStartGame(){
 startQuizEl.addEventListener("click", onStartGame);
 optionEl.addEventListener("click", onSelectAnswer);
 playAgainEL.addEventListener("click", onStartGame);
+
 
