@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <div id="container">
+        <div id="highScore">
             <a href="">High Scores</a>
         </div>
         <div id="timer"></div>
@@ -25,16 +25,17 @@
                 <div id="message">   
                 </div>
             </div>
+            <div id="results" class="hidden">
+                <div id="summary"></div>
+                <button id="viewScore" class="button">View all High Score</button>
+                <input type="text" id="initial" placeholder="Enter your Name">
+                <button id="saveScore" class="button">Save Score</button>
+                <button id="playAgain" class="button hide">Play Again</button>
+                
+            </div>
         </div>
        
-        <div id="results" class="hidden">
-            <div id="summary"></div>
-            <button id="viewScore" class="button">View all High Score</button>
-            <input type="text" id="initial" placeholder="Enter your Name">
-            <button id="saveScore" class="button">Save Score</button>
-            <button id="playAgain" class="button hide">Play Again</button>
-            
-        </div>
+        
     </main>
     <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/script.js"></script>

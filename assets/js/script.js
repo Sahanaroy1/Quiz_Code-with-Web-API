@@ -19,6 +19,7 @@ function stopGame(){
 
     timerEl.textContent = ""
 
+    quizEl.style.display = 'none';
    
     resultEl.style.display = 'flex';
     summaryEl.textContent = "Your Score is " + score;
