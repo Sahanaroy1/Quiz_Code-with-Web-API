@@ -1,8 +1,9 @@
-body{
+body {
     background-color: rgb(96, 142, 142);
     text-align: center;
 }
-#welcome{
+
+#welcome {
     background-color: rgb(184, 241, 241);
     border-radius: 20px;
     height: 400px;
@@ -12,17 +13,19 @@ body{
     align-content: center;
     padding: 20px;
 }
-#highScore{
+
+#highScore {
     display: flex;
     width: 150px;
     margin: 30px;
-    
-    
+
+
 }
-#timer{
+
+#timer {
     position: absolute;
-    top:0;
-    right:0;
+    top: 0;
+    right: 0;
     margin: 30px;
     font-size: 25px;
     padding: 10px;
@@ -33,6 +36,7 @@ body{
     text-decoration: none;
 
 }
+
 #question {
     padding-top: 30px;
     text-align: center;
@@ -41,7 +45,8 @@ body{
     margin-bottom: 20px;
     color: rgb(17, 64, 64);
 }
- #options {
+
+#options {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
@@ -53,6 +58,7 @@ body{
     color: rgb(17, 64, 64);
     list-style-type: square;
 }
+
 #message {
     padding-top: 30px;
     text-align: center;
@@ -62,11 +68,13 @@ body{
     color: rgb(65, 21, 21);
 
 }
-#welcomeNote{
+
+#welcomeNote {
     color: rgb(42, 63, 56);
     margin-top: 40px;
 }
-#startQuiz{
+
+#startQuiz {
     display: inline-block;
     padding: 10px;
     font-size: 30px;
@@ -77,7 +85,8 @@ body{
     cursor: default;
     margin-top: 160px;
 }
-#summary{
+
+#summary {
     text-align: center;
     font-family: 'monospace';
     color: rgb(42, 63, 56);
@@ -86,9 +95,10 @@ body{
     height: 50px;
     margin: 20px;
     margin-left: 100px;
-    
+
 }
-#viewScore{
+
+#viewScore {
     margin-left: 145px;
     padding: 10px;
     font-size: 20px;
@@ -99,8 +109,9 @@ body{
     border-radius: 10px;
     cursor: default;
 }
-#saveScore{
-    
+
+#saveScore {
+
     margin-top: 20px;
     margin-left: 145px;
     padding: 10px;
@@ -112,7 +123,8 @@ body{
     border-radius: 10px;
     cursor: default;
 }
-#playAgain{
+
+#playAgain {
     float: right;
     margin-top: 80px;
     margin-left: 250px;
@@ -125,22 +137,24 @@ body{
     border-radius: 10px;
     cursor: default;
 }
-#initial{
-  width: 200px;
-  padding: 12px 20px;
-  margin-top: 10px;
-  margin-left: 145px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+
+#initial {
+    width: 200px;
+    padding: 12px 20px;
+    margin-top: 10px;
+    margin-left: 145px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
-#results{
+#results {
     display: none;
     flex-wrap: wrap;
     flex-direction: column;
 }
+
 #scores-list {
     display: flex;
     flex-direction: column;
@@ -154,27 +168,28 @@ body{
     list-style-type: square;
 }
 
-#highScores{
+#highScores {
     color: rgb(42, 63, 56);
     margin-top: 40px;
     margin-left: 30px;
     display: none;
 }
-#scores-list{
+
+#scores-list {
     display: none;
 }
-#hrefHighScore{
-   text-decoration: none;
-   font-size: 25px;
+
+#hrefHighScore {
+    text-decoration: none;
+    font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(17, 64, 64);
     border-radius: 100px;
     background-color: rgb(152, 210, 210);
     padding: 10px;
-    
+
 }
-#reset{
+
+#reset {
     display: none;
 }
-
-
