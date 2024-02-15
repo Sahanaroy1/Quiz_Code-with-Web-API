@@ -18,5 +18,4 @@
 https://sahanaroy1.github.io/Quiz_Code-with-Web-API/
 
 # Snippet of the Quiz:
-<img width="1408" alt="Quiz Code" src="https://github.com/Sahanaroy1/Quiz_Code-with-Web-API/assets/127791384/fc47771d-a35a-42ed-a11d-4b8ffb2500cf">
-
+<img width="1415" alt="Quiz" src="https://github.com/Sahanaroy1/Quiz_Code-with-Web-API/assets/127791384/9b273e83-6fc1-404f-8fce-cd268d7a7b06">
