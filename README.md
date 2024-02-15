@@ -15,7 +15,8 @@
 
 
 * Deployed Link:
-
+https://sahanaroy1.github.io/Quiz_Code-with-Web-API/
 
 # Snippet of the Quiz:
+<img width="1408" alt="Quiz Code" src="https://github.com/Sahanaroy1/Quiz_Code-with-Web-API/assets/127791384/fc47771d-a35a-42ed-a11d-4b8ffb2500cf">
 
