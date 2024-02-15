@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz-Coding</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <header>
         <div id="highScore">
-            High Score
+            <a href="#scores-list" id="hrefHighScore">High Score</a>
         </div>
         <div id="timer"></div>
     </header>
@@ -17,25 +19,30 @@
         <div id="welcome">
             <h1 id="welcomeNote">Welcome to Code Quiz</h1>
             <button id="startQuiz" class="button">StartQuiz</button>
-            <div id="quiz" >
+            <div id="quiz">
                 <div id="question">
                 </div>
                 <div id="options">
                 </div>
-                <div id="message">   
+                <div id="message">
                 </div>
             </div>
-            <div id="results" >
+            <div id="results">
                 <div id="summary"></div>
                 <button id="viewScore" class="button">View all High Score</button>
                 <input type="text" id="initial" placeholder="Enter your initial">
                 <button id="saveScore" class="button">Save Score</button>
                 <button id="playAgain" class="button hide">Play Again</button>
-                
             </div>
-        </div>   
+            <div id="showScores" >
+                <h1 id="highScores">Over-all High Scores</h1>
+                 <div id="scores-list"></div>
+            </div>
+        </div>
     </main>
     <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/script.js"></script>
+   
 </body>
+
 </html>

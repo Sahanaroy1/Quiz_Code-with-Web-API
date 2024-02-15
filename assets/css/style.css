@@ -16,15 +16,13 @@ body{
     display: flex;
     width: 150px;
     margin: 30px;
-    font-size: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(17, 64, 64);
+    
     
 }
 #timer{
     position: absolute;
-   top:0;
-   right:0;
+    top:0;
+    right:0;
     margin: 30px;
     font-size: 25px;
     padding: 10px;
@@ -53,6 +51,7 @@ body{
     margin-top: 10px;
     margin-bottom: 20px;
     color: rgb(17, 64, 64);
+    list-style-type: square;
 }
 #message {
     padding-top: 30px;
@@ -127,9 +126,8 @@ body{
     cursor: default;
 }
 #initial{
-width: 200px;
+  width: 200px;
   padding: 12px 20px;
-  
   margin-top: 10px;
   margin-left: 145px;
   display: inline-block;
@@ -142,6 +140,41 @@ width: 200px;
     display: none;
     flex-wrap: wrap;
     flex-direction: column;
+}
+#scores-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(17, 64, 64);
+    list-style-type: square;
+}
+
+#highScores{
+    color: rgb(42, 63, 56);
+    margin-top: 40px;
+    margin-left: 30px;
+    display: none;
+}
+#scores-list{
+    display: none;
+}
+#hrefHighScore{
+   text-decoration: none;
+   font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(17, 64, 64);
+    border-radius: 100px;
+    background-color: rgb(152, 210, 210);
+    padding: 10px;
+    
+}
+#reset{
+    display: none;
 }
 
 
